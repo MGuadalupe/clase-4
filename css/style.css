@@ -1,0 +1,434 @@
+body{
+	text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+	text-decoration: none;
+}
+header ul{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+header .menu-container{
+	width: 1200px;
+	margin: auto;
+	padding: 20px 0px;
+
+}
+header .menu-container nav{
+	float: right;
+	margin: 8px;
+}
+header .menu-container nav ul.menu{
+	width: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+header .menu-container nav ul.menu li{
+	color: #142e3f;
+}
+header .menu-container nav ul.menu li:last-child{
+	color: grey;
+}
+.header-inferior, .header-inferior-form {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header-inferior-form{
+	background: url("../assets/indexbanner-bg2.jpg");
+}
+.header-inferior{
+	background-image: url("../assets/indexbanner-bg3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.header-txt{
+	width: 1100px;
+	margin: auto;
+	margin-top: 200px;
+}
+.header-inferior-form .header-txt h1, .header-inferior-form .header-txt p{
+	text-align: center;
+}
+.header-txt h1, .header-txt p{
+		font-family: 'Raleway', sans-serif;
+}
+.header-txt h1{
+	font-size: 30px; 
+	font-weight: 700;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.header-txt p{
+	color: rgba(255,255,255,0.7);
+	font-size: 15px; 
+	font-weight: 500;
+	line-height: 25px;
+
+}
+.contenedor-busqueda{
+	width: 960px;
+	margin: auto;
+	background-color: white;
+	height:80px; 
+	position: relative;
+	top:250px;
+	-webkit-box-shadow:0px 2px 5px #848484;
+}
+.contenedor-busqueda input{
+	background-color: white;
+	line-height: 80px;
+	width: 70%;
+	border: 0px;
+	padding: 0px;
+	padding-left: 50px;
+}
+button{
+	background-color: #00adf2;
+	border: 0;
+	color: white;
+	font-weight: bolder;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.contenedor-busqueda button{
+	
+	height: 80px;
+	max-width: 150px;
+	width: 29%;
+	float: right;
+
+}
+.contenedor-busqueda button span.ion-search{
+	margin-right: 5px;
+} 
+.busqueda p, .tablas-precios article ul li{
+	font-weight: 400;
+}
+.busqueda p, .contenedor-caracteristicas h4, 
+.contenedor-servicios .art-servicios article h4, 
+.contenedor-servicios .art-servicios2 article h4,
+.tablas-precios article ul li, .tablas-precios h4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px; 
+	letter-spacing: 1px;
+}
+.contenedor-caracteristicas h4, 
+.contenedor-servicios .art-servicios article h4, 
+.contenedor-servicios .art-servicios2 article h4,
+.tablas-precios h4{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.contenedor-caracteristicas{
+	padding-top: 50px;
+}
+
+.caracteristicas{
+
+	width: 960px;
+	margin: auto;
+	display: flex;
+	justify-content:space-around;
+	margin-top: 50px;
+
+}
+.items-caracteristicas {
+	color: #142e3f;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.items-caracteristicas img{
+	width: 70px;
+	margin: auto;
+}
+.items-caracteristicas h4{
+	padding: 20px 0px;
+	text-align: center;
+}
+.items-caracteristicas p{
+	max-width: 130px;
+	line-height:15px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.contenedor-caracteristicas  p, 
+.contenedor-servicios  p, 
+.contenedor-precios p,
+.footer-inf ul li, .footer-inf h4, .container-form p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	line-height: 16px; 	
+}
+
+
+
+.titulo-servicios  h2, .precios-titulo  h2, .tablas-precios h2, .container-form h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: #142e3f; 
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.tablas-precios article ul, ul.menu, 
+.contenedor-servicios ul, .footer-inf ul li{
+	list-style:none;
+}
+
+.division, .division2{
+	width: 40px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+.division img,  .division2 img{
+	width: 100%;
+}
+ .division2{
+ 	padding-top: 100px;
+ }
+
+.titulo-servicios, .precios-titulo{
+	padding-bottom: 50px;
+}
+
+ .titulo-servicios p, .precios-titulo p, .container-form p{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+
+.servicios{
+
+	width: 960px;
+	margin:auto;
+	display: flex;
+	justify-content:space-around;
+}
+.servicios ul{
+	margin-top:50px;
+}
+.servicios img{
+	margin: 0px 20px; 
+	z-index: 300;
+}
+.art-servicios article, .art-servicios2 article{
+	display: flex;
+	justify-content:space-between;
+	padding-bottom: 20px;
+	
+	
+}
+.art-servicios article{
+	flex-direction:row-reverse;
+}
+.art-servicios article img,.art-servicios2 article img{
+	width: 50px;
+	height: 50px;
+}
+.serv-txt{
+	width:80%;
+}
+.serv-txt h4{
+	padding: 15px 0px;
+	
+}
+.art-servicios article .serv-txt h4, .art-servicios article .serv-txt p{
+	text-align: right;
+}
+.art-servicios2 article .serv-txt h4, .art-servicios2 article .serv-txt p{
+	text-align: left;
+}
+.contenedor-precios{
+	width: 100%;
+	position: relative;
+	
+	height: 400px;
+	top: -100px;
+	z-index: -1;
+	background-image: url('../assets/pricing-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.form{
+	width: 100%;
+}
+.form  .container-form{
+	width: 960px;
+	margin: auto;
+}
+.tablas-precios{
+	width: 960px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.precios{
+	background: white;
+	padding: 40px;
+	-webkit-box-shadow: 3px 4px 28px 0px rgba(0,0,0,0.24);
+-moz-box-shadow: 3px 4px 28px 0px rgba(0,0,0,0.24);
+box-shadow: 3px 4px 28px 0px rgba(0,0,0,0.24);
+}
+.precios h4{
+	color: #1b254c;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.precios h2{
+	font-size: 30px;
+	text-align: center;
+	color: #1b254c;
+
+}
+.precios hr{
+	margin:30px 15px;
+	border: 0px;
+	height: 1px;
+	background: #bbbaba;
+}
+.precios .especificaciones{
+	display: flex;
+	justify-content: space-around;
+}
+.especificaciones ul li{
+	padding-bottom: 20px;
+	
+}
+ .tablas-precios .precios:first-child .especificaciones ul:last-child li {
+	color: #0689cd;
+}
+ .tablas-precios .precios:nth-child(2) .especificaciones ul:last-child li {
+	color: #fce12b;
+}
+ .tablas-precios .precios:nth-child(3) .especificaciones ul:last-child li {
+	color: #ff9a2d;
+}
+ .tablas-precios .precios:nth-child(4) .especificaciones ul:last-child li {
+	color: #f34a00;
+}
+
+.precios button{
+	width: 100%;
+	height: 30px;
+	border-radius: 8px;
+	background: #18ade4;
+	margin:0px;
+	padding: 0px;
+	border: 0px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	font-size: 10px;
+	letter-spacing: 2px; 
+}
+footer{
+	width: 100%;
+	position: absolute;
+	z-index: -2;
+	height: 200px;
+
+}
+footer .footer-container{
+	background: #142e3f;
+	position: relative;
+	height: 400px;
+	width: 100%;
+	top: 250px;
+}
+footer .footer-sup{
+	width: 960px;
+	margin: auto;
+	padding-top: 100px;
+}
+footer .footer-sup h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px; 
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+footer .footer-sup strong{
+	color: #18ade4;
+	font-weight: bolder;
+	font-size: 700;
+}
+
+footer .footer-inf{
+	width: 100%;
+	margin: auto;
+	margin-top: 200px;
+	height: 80px;
+	background: #091722;
+}
+.pie{
+	width: 960px;
+	margin: auto;
+	padding-top: 20px;
+
+}
+.pie h4{
+	float: left;
+	color: white;
+}
+
+.pie ul{
+	float: right;
+	display: flex;
+	width: 200px;
+	justify-content: space-around;
+}
+.pie ul li{
+	display: inline-block;
+	color: white;
+
+}
+.form{
+	margin-top: 100px;
+}
+form{
+	width: 100%;
+	margin-top: 40px;
+
+}
+form .input{
+	width: 45%;
+	display: inline-block;
+}
+
+form .input input{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+form textarea{
+	width: 45%;
+	height: 150px;
+	display: inline-block;
+
+}
+form button{
+	display: block;
+}
+
+
