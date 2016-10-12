@@ -148,9 +148,20 @@ button{
 	flex-direction:column;
 	justify-content:center;
 }
-.items-caracteristicas img{
+.items-caracteristicas .iconos{
 	width: 70px;
 	margin: auto;
+
+}
+.items-caracteristicas .iconos img{
+	width: 100%;
+	transition: 1.3s  ease-in-out;
+	animation-timing-function:linear;
+}
+.items-caracteristicas .iconos img:hover{
+	width: 100%;
+	transform:scale(1.25);
+
 }
 .items-caracteristicas h4{
 	padding: 20px 0px;
